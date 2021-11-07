@@ -1,0 +1,236 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+
+#img-header{
+  width: 20%;
+  height: auto;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+  padding: 1vh 3vw 0em 3vw;
+  display: inline-block;
+ }
+
+#header{
+  padding: 6vh 0px 6vh 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  text-align: center;
+  font-size: 1.5em;
+  }
+
+#email{
+  display: block;
+  width: 20em;
+  height: 1.5em;
+  margin: 1em auto 0em 
+}
+
+#submit{
+  text-decoration: none;
+  color: black;
+  background-color: #f1c40f;
+  display: block;
+  margin: 1em auto 0em auto;
+  width: 10em;
+  height: 3em;
+  font-weight: 800;
+  padding: 0.1em;
+  transition: all .5s linear;
+  border: thin;
+  
+}
+
+#submit:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+
+#feat-sect{
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-self: center;
+}
+
+#feat-sect .feat{
+  margin: 4em 0em 4em 0em;
+}
+
+i{
+  float: left;
+  display: block;
+  transform: scale(3);
+  color: darkorange;
+  padding: 1em 0em 1em 2em
+}
+
+.feat > div{
+  margin-left: 12em;
+}
+
+#video{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 60vw;
+  height: 60vw;
+}
+
+#prices{
+  width: 70%;
+  display: flex;
+  margin: 5em auto 2.5em auto;
+  justify-content: space-around;
+}
+
+.box{
+  border: thin solid black;
+ /* padding: 1em 2em 1em 2em; */
+  text-align: center;
+  line-height: 1.5em;
+  width: 29.9%;
+  height: 15em;
+}
+
+.box > h2{
+  margin-bottom: .5em;
+  background-color: #ddd;
+  padding: .5em .5em;
+  font-size: 1em;
+    
+}
+
+.box > p{
+  margin: .7em .7em
+}
+
+.box > a{
+  text-decoration: none;
+  color: black;
+  background-color: #f1c40f;
+  width: 8em;
+  height: 2em;
+  font-weight: 800;
+  padding: 0.1em;  
+  display: inline-block;
+  font-weight: 500;
+  transition: all .5s linear;
+}
+
+.box > a:hover{
+  background-color: darkorange;
+}
+
+footer{
+  background-color: #ddd;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  height: 5em;
+  padding: 2em 0em 0em 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+  padding: .5em 1em .5em 1em;
+  display: inline-block;
+  
+ }
+
+footer p{
+  color: rgba(0,0,0, 0.6);
+  font-size: 1em;
+  align-self: flex-end;
+  }
+
+footer div{
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  #prices{
+    display: block;
+    margin: 1em auto 1em auto;
+  }
+  .box{
+    margin: 1em auto 1em auto;
+    height: auto;
+    width: auto;
+    padding-bottom: 1em;
+  }
+  
+  #img-header{
+  width: 35%;
+}
+
+@media screen and (max-width: 375px){
+  body{
+    font-size: 2.5vh
+  }
+  #header{
+    flex-direction: column;
+  }
+  
+  ul{
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #img-header{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }
+  }
+  
+#feat-sect{
+  width: 90%;
+  display: block;
+  text-align: center;
+  margin-right: 80vw;
+  margin-left: 0px
+  } 
+  
+ i{
+    padding-top: 10vh;
+  }
+  
+#video{
+
+  width: 95%;
+  height: 50vh;
+}
+  
+  footer{
+  width: 80%;
+  height: 19vh;
+ 
+  
+
+  
+}
